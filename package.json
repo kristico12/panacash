@@ -1,0 +1,40 @@
+{
+  "name": "semillero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "webpack": "webpack --mode development",
+    "webpack-prod": "webpack --watch=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.10.5",
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "sqlite3": "^5.0.0",
+    "styled-jsx": "^3.3.0",
+    "validatorjs": "^3.18.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "style-loader": "^2.0.0"
+  }
+}
